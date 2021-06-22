@@ -169,3 +169,9 @@ spec:
  $ kubectl delete clusterrole nginx-ingress
  $ kubectl delete clusterrolebinding nginx-ingress
  ```
+ 
+ Note: If you have load balancer can assign the DNS name or else add in /etc/hosts
+       nsloopup <Ip of loadbalancer> , copy the adreess 
+   vi /etc/hosts
+   Ip1   springapp.mithun.app.co.in
+   Ip2   springboot.mithun.app.co.in
